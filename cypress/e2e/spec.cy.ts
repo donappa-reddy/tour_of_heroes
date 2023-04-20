@@ -26,8 +26,8 @@ describe('dashboard', () => {
     cy.get('app-hero-search').should('contain', 'Hero Search');
   });
 
-  it(`says hello from Matt`, () => {
-    cy.contains('Hello from Matt');
+  it(`says hello from Donappa reddy Kandhi viswanatha reddy`, () => {
+    cy.contains('Hello from Donappa reddy Kandhi viswanatha reddy');
   });
 
   it('can search', () => {
